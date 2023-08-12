@@ -1,0 +1,128 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body
+{
+	
+	background-image:url(home1.jpg);
+	background-size:105% 99%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family:sans-serif;
+}
+.menu-bar
+{
+	background: rgb(0,100,0);
+	text-align: right;
+	
+
+}
+
+.menu-bar ul
+{
+	display:inline-flex;
+	list-style:none;
+	color:#fff;
+}
+
+.menu-bar ul li
+{
+	width:120px;
+	margin:15px;
+	padding:15px;
+}
+.menu-bar ul li a
+{
+	text-decoration:none;
+	color:#fff;
+}
+.active, .menu-bar ul li:hover;
+{
+	background: #fff;
+	border-radius: 3px;
+}
+
+.menu-bar .fa
+{
+	margin-right:8px;
+}
+.sub-menu-1
+{
+	display:none;
+}
+
+.menu-bar ul li:hover .sub-menu-1
+{
+	display:block;
+	position:absolute;
+	background:rgb(0,100,0);
+	margin-top:15px;
+	margin-left:-15px;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display:block;
+	margin:10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width:150px;
+	padding:10px;
+	border-bottom:1px dotted #fff;
+	background:transparent;
+	border-radius:0;
+	text-align:left;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+	color:#b2ff00;
+}
+
+p{
+	font-size:25px;
+	text-align:center;
+	font-family: cursive;
+}
+
+.footer{
+	padding:40px 0;
+	background-color:#fff;
+
+}
+.footer .social{
+	padding:25px;
+	text-align:center;
+	color:#4b4c4d;
+}
+
+.footer .social a{
+	font-size:24px;
+	color:inherit;
+	border:1px solid #ccc;
+	width:40px;
+	height:40px;
+	line-height:38px;
+	display:inline-block;
+	text-align:center;
+	border-radius:50%;
+	margin:0 8px;
+	opacity:0.75;
+}
+.footer .social a:hover{
+	opacity:0.9;
+}
+.logo{
+	width:100px;
+	position:fixed;
+	left:80px;
+	height:80px;
+
+}

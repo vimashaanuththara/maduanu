@@ -1,0 +1,47 @@
+body
+{
+	
+	background-image:url(project.jpg);
+	background-size:105% 99%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family:sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box; 
+}
+
+.container{
+	width:75%;
+	height:75vh;
+	background:yellow;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.swiper{
+	width:50%;
+	height:50px;
+}
+.swiper-slide img{
+	width:25%;
+	height:25%;
+}
+.swiper .swiper-button-prev,.swiper .swiper-button-next{
+	color:#fff;
+}
+.swiper .swiper-pagination-bullet-active{
+	background:#fff;
+}
